@@ -11,12 +11,15 @@ boton_limpiar.addEventListener('click',() =>{
 }) /* Limpiar*/
 
 lista.addEventListener('click',() =>{
+
     
 }) /*Eliminar*/
 
 lista.addEventListener('keypress',() =>{
+    console.log (enter,enter)
     
-}) /*Editar*/
+}) 
+
 
 /*Localstorage*/
 
@@ -68,7 +71,7 @@ const mostrarLista = () =>{
     `
         
     }
-};
+}
 
 /*Editar*/
 const editarLista = (idLista, descripcion) =>{
@@ -78,14 +81,14 @@ const editarLista = (idLista, descripcion) =>{
     }
     let datos = getArregloLista()
     let newArreglo = []
-    if (datos!= null) {
+    if (datos!= null {
         for (const Lista of datos){
             if (Lista.id == idLista){
-                newArreglo.push(newLista)
+                newLista.push(newLista)
             } else{
                 newArreglo.push(Lista)
             }
         }
-    }
+    })
 };
 
