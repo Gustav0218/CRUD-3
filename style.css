@@ -1,0 +1,84 @@
+body{
+    background: black;
+}
+
+.container{
+    background: rgba(221, 232, 225, 0.85);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.header{
+    border-bottom: 2px solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.boton-agregar{
+    display: block;
+    margin: auto;
+    margin-top: -15px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: floralwhite;
+    background-color: black;
+}
+
+.boton-agregar:hover{
+    background: rgb(131, 230, 131);
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+
+.lista li{
+    margin: 10px 0px;
+    background: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista li:hover{
+    background: rgba(90, 5, 5, 0.821);
+}
+
+.boton-eliminar{
+   background: black;
+   color: azure;
+   font-weight: bold;
+   border: none;
+   border-radius: 15px;
+}
+
+.boton-eliminar:hover{
+    background: rgb(213, 46, 0);
+}
+
+.boton-limpiar{
+    display: block;
+    margin: auto;
+   margin-bottom: 15px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: floralwhite;
+    background-color: black;
+}
+
+.boton-limpiar:hover{
+    background: orange;
+}
+
+.input-area{
+    border: none;
+    background: whitesmoke;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    text-transform: capitalize;
+}
